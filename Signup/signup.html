@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Merienda:wght@300..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poiret+One&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+<div class="main">
+    <div class="pannel">
+    
+    <form action=""> 
+        
+        <h1>SignUp</h1>
+            <!-- Label and input for Full Name -->
+            <label for="Full Name"><b>Full Name</b>  </label>
+                <input type="text" name="FullName" size="50" placeholder="Full Name" required="required">   
+          
+
+            <!-- Label and input for Email Address -->
+            <label for="Mobile"><b>Email Address</b> </label>
+                <input type="email" name="Email" size="50" placeholder="Email" required="required">   
+            
+
+            <!-- Label and input for Mobile Number -->
+            <label for="Mobile"><b>Mobile</b></label>
+                <input type="text" name="Mobile" size="50" placeholder="Mobile Number" required="required">   
+            
+
+            <!-- Label and dropdown for City selection -->
+            <label for="City"><b>City</b></label>
+                <select name="City" id="City">
+                    <option value="Select City" disabled selected>Select City</option> 
+                    <option value="Karachi">Karachi</option>
+                    <option value="Lahore">Lahore</option>
+                    <option value="Quetta">Quetta</option>
+                </select>
+            
+
+            <!-- Label and input for Password -->
+            <label for="Password"><b>Password</b>  </label>
+             <input type="password" name="Password" size="50" placeholder="Password" required="required">   
+            
+            <!-- Label and input for Re-Enter Password -->
+            <label for="Re-Enter Password"><b>Re-Enter Password</b> </label> 
+                <input type="password" name="Re-Enter Password" size="50" placeholder="Re-Enter Password" required="required"> 
+            
+
+            <!-- Label and dropdown for Gender selection -->
+            <label for="Gender">Gender </label> 
+                <select name="Gender" id="Gender">
+                    <option value="Gender" disabled selected>Select Gender</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Other</option>
+                </select>
+            
+        
+            
+            
+            <input type="submit" name="Signup" value="Signup" id="button">
+
+            <!-- Link to login page for existing users -->
+            <h5>Already have an Account? <a href="/login.html">Login</a></h5>
+        </form>
+    
+
+    </div>
+    </div>
+</body>
+</html>
